@@ -1,0 +1,13 @@
+:root {
+  --bs-primary: red;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
