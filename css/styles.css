@@ -5,24 +5,33 @@
   font-family: Poppins, sans-serif;
 }
 
+body {
+  background-color: #E5E5E5;
+}
+
 .logo {
   font-weight: bold;
 }
 
-
-
-#headline-bg{
-  position: absolute;
-  height:100vh;
-  top: 0;
-  left:0;
-  /* background-image: url('../svg/bg.svg'); */
+#headline {
+  background-position-y: 50px;
+  border-bottom-left-radius: 80px;
+  background-image: url("../svg/bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-section{
-  position: relative;
+.navbar {
+  z-index: 1;
 }
 
+#headline{
+  /*position: absolute;*/
+  /*!*height:100vh;*!*/
+  /*top: 50px;*/
+  /*left:0;*/
+  /*overflow-y: hidden;*/
 
+}
 
 /*# sourceMappingURL=styles.css.map */
