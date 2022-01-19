@@ -1,5 +1,4 @@
 :root {
-  --bs-primary: red;
 }
 
 * {
@@ -9,5 +8,21 @@
 .logo {
   font-weight: bold;
 }
+
+
+
+#headline-bg{
+  position: absolute;
+  height:100vh;
+  top: 0;
+  left:0;
+  /* background-image: url('../svg/bg.svg'); */
+}
+
+section{
+  position: relative;
+}
+
+
 
 /*# sourceMappingURL=styles.css.map */
