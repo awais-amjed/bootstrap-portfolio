@@ -1,8 +1,11 @@
-:root {
-}
-
 * {
   font-family: Poppins, sans-serif;
+  color:#253858;
+}
+
+p{
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 body {
@@ -41,6 +44,21 @@ body {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-languages {
+  background-color:#F7F7F9;
+}
+
+ul>li>p{
+  font-weight: 500 !important;
+}
+
+.custom-border-bottom{
+border-bottom: 1px solid #65646454 !important;}
+
+#about-myself{
+  border-top-right-radius: 80px;
 }
 
 /*# sourceMappingURL=styles.css.map */
