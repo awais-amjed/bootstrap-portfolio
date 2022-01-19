@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -206,7 +206,7 @@
 
         <section id="about-myself"
             class="container-fluid d-flex align-items-center min-vh-100 py-5 bg-white justify-content-center">
-            <div class="p-5 row gx-2">
+            <div class="p-5 row gx-4">
                 <div class="col-12 col-lg-5">
                     <h2 class="fw-bold">
                         About
@@ -243,20 +243,22 @@
                         <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
                             Languages<i class="fas fa-chevron-down"></i>
                         </li>
-                        <ul class="list-group list-group-horizontal row gap-2">
-                            <li class="col-3 list-group-item border-0 bg-languages">
-                                <img src="./svg/js.svg" alt="Javasript icon">
-                                <p class="pt-3">JavaSript</p>
-                            </li>
-                            <li class="col-3 list-group-item border-0 bg-languages">
-                                <img src="./svg/html.svg" alt="HTML icon">
-                                <p class="pt-3">HTML</p>
-                            </li>
-                            <li class="col-3 list-group-item border-0 bg-languages">
-                                <img src="./svg/css.svg" alt="CSS icon">
-                                <p class="pt-3">CSS</p>
-                            </li>
-                        </ul>
+                        <div>
+                            <ul class="list-group list-group-horizontal row gap-2">
+                                <li class="col-3 list-group-item border-0 bg-languages">
+                                    <img src="./svg/js.svg" alt="Javasript icon">
+                                    <p class="pt-3">JavaSript</p>
+                                </li>
+                                <li class="col-3 list-group-item border-0 bg-languages">
+                                    <img src="./svg/html.svg" alt="HTML icon">
+                                    <p class="pt-3">HTML</p>
+                                </li>
+                                <li class="col-3 list-group-item border-0 bg-languages">
+                                    <img src="./svg/css.svg" alt="CSS icon">
+                                    <p class="pt-3">CSS</p>
+                                </li>
+                            </ul>
+                        </div>
                         <li
                             class="list-group-item border-0 custom-border-bottom d-flex justify-content-between align-items-center">
                             Frameworks<i class="fas fa-chevron-right"></i></li>
@@ -269,11 +271,14 @@
         </section>
 
         <div class="bg-white">
-            <section id="contact-me" class="container-fluid align-items-center d-flex justify-content-center min-vh-100 py-5">
+            <section id="contact-me"
+                class="container-fluid align-items-center d-flex justify-content-center min-vh-100 py-5">
                 <div class="col-12 col-lg-6 d-flex flex-column align-items-center p-5">
                     <h2 class="text-white">Contact Me</h2>
-                    <p class="text-center text-white">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                    <form action="https://formspree.io/f/xrgjbnyl" class="d-flex flex-column gap-3 col-12 col-lg-8 align-items-center">
+                    <p class="text-center text-white">If you have an application you are interested in developing, a
+                        feature that you need built or a project that needs coding. I’d love to help with it </p>
+                    <form action="https://formspree.io/f/xrgjbnyl"
+                        class="d-flex flex-column gap-3 col-12 col-lg-8 align-items-center">
                         <input type="text" class="form-control" name="username" placeholder="Your name">
                         <input type="email" class="form-control" name="email" placeholder="Your Email">
                         <textarea class="form-control" placeholder="Write your message here" rows="8"></textarea>
