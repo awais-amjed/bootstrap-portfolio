@@ -1,15 +1,15 @@
 * {
   font-family: Poppins, sans-serif;
-  color:#253858;
+  color: #253858;
 }
 
-p{
+p {
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .logo {
@@ -29,7 +29,7 @@ body {
 }
 
 #works-section span {
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .dot {
@@ -47,22 +47,23 @@ body {
 }
 
 .bg-languages {
-  background-color:#F7F7F9;
+  background-color: #f7f7f9;
 }
 
-ul>li>p{
+ul > li > p {
   font-weight: 500 !important;
 }
 
-.custom-border-bottom{
-border-bottom: 1px solid #65646454 !important;}
+.custom-border-bottom {
+  border-bottom: 1px solid #65646454 !important;
+}
 
-#about-myself{
+#about-myself {
   border-top-right-radius: 80px;
 }
 
 #contact-me {
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-top-left-radius: 80px;
   background-image: url("../svg/contact-form-background.svg");
   background-size: cover;
@@ -76,5 +77,3 @@ border-bottom: 1px solid #65646454 !important;}
 #contact-me .btn:hover {
   background-color: #0d6efd;
 }
-
-/*# sourceMappingURL=styles.css.map */
