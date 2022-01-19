@@ -61,4 +61,20 @@ border-bottom: 1px solid #65646454 !important;}
   border-top-right-radius: 80px;
 }
 
+#contact-me {
+  background-color: #6070FF;
+  border-top-left-radius: 80px;
+  background-image: url("../svg/contact-form-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact-me .btn {
+  background-color: white;
+}
+
+#contact-me .btn:hover {
+  background-color: #0d6efd;
+}
+
 /*# sourceMappingURL=styles.css.map */
